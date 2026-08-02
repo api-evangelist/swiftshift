@@ -1,4 +1,16 @@
 aid: swiftshift
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swiftshift.png
 name: SwiftShift
 description: SwiftShift is a company surfaced as a portfolio company of seedcamp and added to the API
   Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -23,3 +35,11 @@ maintainers:
 common:
 - type: Website
   url: http://swiftshift.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'swiftshift.com is a parked GoDaddy for-sale lander (LANDER_SYSTEM=PW); every
+    path soft-404s to /lander. No product, docs, or API surface. seedcamp-backed SwiftShift
+    not confirmed at an alternate domain (WebSearch budget exhausted).'
